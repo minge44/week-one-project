@@ -1,0 +1,369 @@
+}
+@font-face {
+    font-family: Roboto;
+    src: url(sansation_light.woff);
+}
+@font-face {
+    font-family: Lora;
+    src: url(sansation_light.woff);
+}
+@font-face {
+    font-family: Merriweather;
+    src: url(sansation_light.woff);
+}
+
+body {
+  background-color: #F2F1E8;
+  display: flex;
+  justify-content: center;
+}
+
+
+.bpc {
+  display: flex;
+  justify-content: space-around;
+}
+table {
+  width: 550px;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+table, tr, th, td{
+  border: 1px solid #2B2F26;
+}
+th {
+  padding: 15px;
+}
+td {
+  padding: 15px;
+}
+header {
+height:52px;
+background-color: #ffffff;
+margin: 0;
+padding: 0;
+}
+.big-pic {
+  display: flex;
+  background-image:url("images/optimized/background-2.jpg");
+  width: 1280px;
+  height: 545px;
+  background-size: cover;
+}
+.flex-container {
+  position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     margin: 0 auto;
+     padding: 10px 50px;
+     z-index: 900;
+     background: #fff;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  background-repeat: no-repeat;
+  background-image:url("images/optimized/bent-creek-logo.png");
+  background-size: 50px 50px;
+
+}
+
+.intro {
+  align-items: center;
+  width: 700px;
+  flex-wrap: wrap;
+  line-height: 200%;
+  font-weight: bolder;
+}
+.intro img {
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+.quote {
+  width: 600px;
+  font-style: italic;
+  height: 40px;
+  border-left: 1px solid black;
+  padding: 15px;
+
+}
+.history {
+  align-items: center;
+  width: 700px;
+  line-height: 200%;
+  font-weight: bolder;
+}
+.lower-box {
+  display: flex;
+  width: 700px;
+  position: relative;
+
+}
+.lower-pic {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding-top: 80px;
+  width: 130px;
+  line-height: normal;
+  font-weight: lighter;
+  font-size: 10px;
+
+}
+/*.facilities-pic {
+  display: flex;
+  justify-content: flex-end;
+  background-image:url("images/optimized/background-1.jpg");
+  height: 100px;
+  width: 130px;
+  background-size: cover;
+}*/
+
+.facilities {
+  width: 550px;
+  line-height: 200%;
+  font-weight: bolder;
+
+}
+
+
+.quote-box  {
+  display: flex;
+  padding-bottom: 30px;
+
+}
+.quote-box p {
+  margin-top: auto;
+}
+.middle-image {
+  background-image:url("images/optimized/background-3.jpg");
+  width: 700px;
+  height: 200px;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+
+}
+.rtg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F2F1E8;
+  font-family: "Lora";
+  margin: 55px;
+  font-size: 50px;
+
+}
+.rtg p {
+  padding-top: 100px;
+}
+img {
+  height: 100px;
+  width: 130px;
+}
+
+.flex-container a:hover {
+  color: #CD5D67
+}
+
+h1 {
+  font-size: 60px
+}
+h2 {
+  font-size: 40px;
+  margin-top: -30px;
+  font-weight: 100;
+}
+
+.flex-container ul {
+  display: flex;
+  font-family: "Roboto";
+}
+.flex-container li a {
+  color: #2B2F26;
+}
+li {
+  padding: 30px;
+  list-style: none;
+  font-size: 20px;
+
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lora";
+}
+.row-1 {
+  display: flex;
+  justify-content:space-around;
+  height: 380px;
+}
+.row-2 {
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+}
+.pic-1 {
+  display: flex;
+  align-items: flex-end;
+  height: 370px;
+  width: 733px;
+  background-size: cover;
+  background-image:url("images/optimized/product-1.jpg");
+  background-color: black;
+
+}
+.pic-2 {
+  display: flex;
+  align-items: flex-end;
+  height: 370px;
+  width: 234px;
+  background-size:cover;
+  background-image:url("images/optimized/product-2.jpg");
+  background-color: black;
+}
+.pic-3 {
+  display: flex;
+  align-items: flex-end;
+  height: 370px;
+  width: 234px;
+  background-size:cover;
+  background-image:url("images/optimized/product-3.jpg");
+  background-color: black;
+}
+.pic-4 {
+  display: flex;
+  align-items: flex-end;
+  height: 240px;
+  width: 234px;
+  background-size:cover;
+  background-image:url("images/optimized/product-4.jpg");
+  background-color: black;
+}
+.pic-5 {
+  display: flex;
+  align-items: flex-end;
+  height: 240px;
+  width: 234px;
+  background-size:cover;
+  background-image:url("images/optimized/product-5.jpg");
+  background-color: black;
+}
+.pic-6 {
+  display: flex;
+  align-items: flex-end;
+  height: 240px;
+  width: 483px;
+  background-size:cover;
+  background-image:url("images/optimized/product-6.jpg");
+  background-color: black;
+}
+.pic-7 {
+  display: flex;
+  align-items: flex-end;
+  height: 240px;
+  width: 234px;
+  background-size:cover;
+  background-image:url("images/optimized/product-7.jpg");
+  background-color: black;
+}
+.text-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F2F1E8;
+  background-color: #2B2F26;
+  font-family: "Lora";
+  width: 187px;
+  height: 46px;
+  margin-bottom: 15px;
+
+}
+.text-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F2F1E8;
+  background-color: #2B2F26;
+  font-family: "Lora";
+  width: 60px;
+  height: 46px;
+  margin-bottom: 15px;
+}
+.text-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F2F1E8;
+  background-color: #2B2F26;
+  font-family: "Lora";
+  width:95px;
+  height: 46px;
+  margin-bottom: 15px;
+}
+.text-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F2F1E8;
+  background-color: #2B2F26;
+  font-family: "Lora";
+  width: 100px;
+  height: 46px;
+  margin-bottom: 15px;
+}
+.text-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F2F1E8;
+  background-color: #2B2F26;
+  font-family: "Lora";
+  width: 180px;
+  height: 46px;
+  margin-bottom: 15px;
+}
+.text-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F2F1E8;
+  background-color: #2B2F26;
+  font-family: "Lora";
+  width: 155px;
+  height: 46px;
+  margin-bottom: 15px;
+}
+.text-7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F2F1E8;
+  background-color: #2B2F26;
+  font-family: "Lora";
+  width: 184px;
+  height: 46px;
+  margin-bottom: 15px;
+}
+
+.footer_text {
+  display: flex;
+  align-items: center;
+  height:85px;
+  background-color: #2B2F26;
+  padding-left: 20px;
+  color: #F2F1E8;
+  font-family: "Merriweather";
+
+}
+footer {
+  width: 100%;
+  position: absolute;
+  left: 0;
+
+}
